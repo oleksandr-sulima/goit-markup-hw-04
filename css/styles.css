@@ -327,6 +327,10 @@ button {
   background-color: #404bbf;
 }
 
+.our-team-item:focus .icon-link-team {
+  background-color: #404bbf;
+}
+
 /* Section #4 */
 /* Our Portfolio */
 .our-portfolio {
