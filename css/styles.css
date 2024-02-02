@@ -438,7 +438,7 @@ button {
   align-items: baseline;
 }
 
-.logo + text {
+.logo-text {
   margin-right: 120px;
 }
 
