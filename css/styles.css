@@ -461,7 +461,6 @@ button {
 .soc-media-div {
   display: flex;
   flex-direction: column;
-  margin-left: 120px;
 }
 
 .footer-logo {
