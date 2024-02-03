@@ -397,7 +397,15 @@ button {
 }
 
 .portfolio-cover-container {
+}
+.portfolio-cover-text {
+  color: var(--CLOUD, #f4f4fd);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding: 40px 32px 164px 56px;
   position: absolute;
+  /*  */
   top: 0;
   background-color: #4d5ae5;
   height: 100%;
@@ -406,15 +414,8 @@ button {
   transform: translateY(100%);
   transition: transform 150ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-cover-text {
-  color: var(--CLOUD, #f4f4fd);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  padding: 40px 32px 164px 56px;
-}
 
-.our-portfolio-item:hover .portfolio-cover-container {
+.our-portfolio-item:hover .portfolio-cover-text {
   transform: translateY(0);
 }
 
