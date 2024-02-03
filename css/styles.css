@@ -346,6 +346,10 @@ button {
   background-color: #404bbf;
 }
 
+.icon-link-team:focus {
+  background-color: #404bbf;
+}
+
 /* Section #4 */
 /* Our Portfolio */
 .our-portfolio {
